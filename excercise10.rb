@@ -27,3 +27,22 @@ students[:cohort4] = 43
 
 # students.delete(:cohort2)
 # puts students
+
+
+# def students_total(group)
+#   total = 0
+#   group.each do |name, number|
+#     total += number
+#   end
+#   puts total
+# end
+#
+# # students_total(students)
+#
+# staff = {
+#   :teachers1 => 12,
+#   :teachers2 => 8,
+#   :teachers3 => 6
+# }
+#
+# students_total(staff)
