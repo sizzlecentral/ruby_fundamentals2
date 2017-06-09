@@ -18,6 +18,21 @@ def increase_position(array)
   puts new_postion
 end
 
+def chase_squirrels(array)
+  array.map! do |dog|
+    dog[:position] + 5
+  end
+  puts array
+end
+
+def return_dogs(array)
+  array.map! do |dog|
+    dog[:position] = 0
+  end
+  puts array
+end
 
 # call_absent_dogs(my_dogs)
-increase_position(my_dogs)
+# increase_position(my_dogs)
+# chase_squirrels(my_dogs)
+# return_dogs(my_dogs)
