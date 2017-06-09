@@ -11,4 +11,13 @@ def call_absent_dogs(array)
   p new_array
 end
 
-call_absent_dogs(my_dogs)
+def increase_position(array)
+  new_postion = array.map do |dog|
+    dog[:position] + 5
+  end
+  puts new_postion
+end
+
+
+# call_absent_dogs(my_dogs)
+increase_position(my_dogs)
